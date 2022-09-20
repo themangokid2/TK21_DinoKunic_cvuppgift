@@ -1,0 +1,64 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	font-family: SilianRail;
+	box-sizing: border-box;
+}
+
+img {
+	max-width:100%;
+}
+
+.background-image {
+
+	background-image: url('/Users/iamaboss/Desktop/webb2/pictures/monkey.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+
+}
+
+@font-face {
+    font-family: SilianRail;
+    src: url("/Users/iamaboss/Desktop/webb2/fonts/rail.otf") format("opentype");
+	font-family: SilianRail;
+   src: url(/Users/iamaboss/Desktop/webb2/fonts/rail.otf);
+   font-weight: bold;
+}
+
+.centered {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: whitesmoke;
+	font-size: 300%
+	
+  }
+
+
+
+  .smaller {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: whitesmoke;
+	font-size: 250%;
+	text-align: center;
+    text-decoration:none;
+    color: inherit;
+  }
+
+  .underline{
+    margin-top: -15%;
+	margin-left: 40%;
+}
+
+hr{
+    width: 364px;
+    height: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 3px #000000;
+}
+
